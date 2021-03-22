@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+.wrapper {
+  height: 3082px;
+  width: 1920px;
+  display: grid;
+  grid-template-columns: [first]90px [second]90px [third]90px;
+  grid-template-rows: [first]90px [second]90px [third]90px;
+}
+.box {
+  background-color: #00b7ff;
+  grid-column-start: first;
+  grid-column-end: third;
+  grid-row-start: first;
+  grid-row-end: first;
+}
+/*# sourceMappingURL=main.css.map */
